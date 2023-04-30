@@ -1,0 +1,12 @@
+### 获取payment
+GET {{payment_host}}/payment/get/31
+
+### 插入payment
+POST {{payment_host}}/payment/create
+Content-Type: application/json
+
+{
+    "id":"",
+    "serial":"三月七"
+}
+
